@@ -27,7 +27,8 @@ while eletek_szama > 0:
     valasz = input('Találgass betűt vagy az egész szót: ')
 
     if valasz == titkos_szo:
-        kitalalta
+        kitalalta = True
+        break
 
     if valasz in titkos_szo:
         fedd_fel(valasz, titkos_szo, ismeretlen_szo)
